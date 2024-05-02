@@ -1,0 +1,83 @@
+/* Reset and base styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e3e4e6; /* Soft gray background for less contrast */
+    font-family: 'Arial', sans-serif; /* Modern font choice */
+}
+
+/* Pokedex container */
+.pokedex {
+    width: 320px; /* Adjusted for a bit more space */
+    background-color: #d32f2f; /* Slightly darker red for a more modern look */
+    border: none; /* Removing the black border for a cleaner look */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2); /* Soft shadow for 3D effect */
+}
+
+/* Screen container */
+.screen-container {
+    
+    background-color: #1e1e1e; /* Darker color for more contrast */
+    padding: 10px;
+    border-radius: 10px; /* More pronounced rounded corners */
+    display: block; /* Enables flexbox to center content */
+}
+
+/* Flex container for inputs */
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Screen styling */
+.screen {
+    width:98%; /* Fixed width for the screen */
+    height: 160px; /* Fixed height for the screen */
+    background-color: #f8f9fa; /* Lighter screen background */
+    border: 3px solid #4b4b4b; /* Sleek border for the screen */
+    border-radius: 8px; /* Rounded corners for the screen */
+    display: flex; /* Enables flexbox to center content */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    margin-bottom: 10px;
+}
+
+.screen img {
+    max-width: 100%; /* Ensures images do not exceed the screen's width */
+    max-height: 100%; /* Ensures images do not exceed the screen's height */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Information text styling */
+.info {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1em; /* Larger font size for better readability */
+}
+
+/* Button styling */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5em;
+}
+
+button {
+    padding: 10px 20px; /* More padding for a bigger touch area */
+    background-color: #4CAF50; /* Modern green color for buttons */
+    color: #ffffff; /* White text color */
+    border: none; /* No border for a more modern look */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #388E3C; /* Darker shade on hover */
+}
